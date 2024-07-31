@@ -26,11 +26,6 @@ app.get('/movies', (req, res) => {
   ];
   res.json(topMovies);
 });
-  // Create a GET route at "/movies" endpoint
-  app.get('/movies', (req, res) => {
-    res.json(top10Movies);
-  });
-  
 
 app.listen(8080, () => {
   console.log('Your app is listening on port 8080.');
