@@ -23,7 +23,6 @@ app.get('/', (req, res) => {
 
 // Route to serve top 10 movies as JSON
 app.get('/movies', (req, res) => {
-
   res.json(topMovies);
 });
 
